@@ -74,6 +74,10 @@ eksctl create iamserviceaccount \
 - Verify external-dns service account, primarily verify annotation related to IAM Role
 ```
 kubectl get sa external-dns
+
+chnaged to 
+
+eksctl get iamserviceaccount --cluster=eksdemo1
 ```
 ### Verify CloudFormation Stack
 - Go to Services -> CloudFormation
